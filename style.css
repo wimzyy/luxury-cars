@@ -1,0 +1,298 @@
+.main-header {
+    padding: 25px 0px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.menu-list {
+    list-style-type: none;
+    display: flex;
+    width: 515px;
+    justify-content: space-between;
+
+}
+
+.menu-link {
+    color: #030305;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration: none;
+}
+
+.main-header__img-logo {
+    margin-right: 244px;
+}
+
+.main-header__container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main-container__first-screen {
+    background: url('img/urus-bg.png') no-repeat center center;
+    padding-top: 105px;
+    padding-bottom: 154px;
+}
+
+.first-screen__container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.first-screen__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110%;
+
+
+    color: #030305;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.first-screen__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+
+
+    color: #030305;
+    margin: 0;
+    margin-bottom: 40px;
+    width: 502px;
+}
+
+.first-screen__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    background: #030305;
+    padding: 20px 0;
+    text-decoration: none;
+    display: block;
+    max-width: 334px;
+}
+
+.products__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+
+    color: #030305;
+
+}
+
+.product__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #030305;
+
+}
+
+.description__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #030305;
+
+}
+
+.description__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #030305;
+
+}
+
+.products__list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 384px);
+    gap: 40px 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.description__list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 110px);
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.product {
+    width: 384px;
+    text-align: center;
+}
+
+.products__container {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.product__button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    background: #030305;
+    padding: 20px 0;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.booking__form {
+    display: flex;
+    flex-direction: column;
+    width: 344px;
+
+}
+
+.booking__form-input {
+    margin-bottom: 15px;
+    padding: 22px 18px;
+
+}
+
+.main-container__product {
+    margin-bottom: 100px;
+
+}
+
+.booking__button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    background: #030305;
+    padding: 20px 0;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.booking__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+
+    color: #030305;
+
+}
+
+.booking__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+
+
+    color: #5D5D5F;
+
+
+}
+
+.booking__container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 121px;
+    position: relative;
+
+}
+
+.main-footer {
+    border-top: 1px solid #E5E5E5;
+    padding: 25px 0px;
+
+}
+
+
+
+.booking__container::before {
+    content: '';
+    position: absolute;
+    width: 969px;
+    height: 506px;
+    background: url('img/rolls.png') no-repeat;
+    z-index: -3;
+    bottom: 0;
+    right: -150px;
+}
+.main-footer__text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+text-align: right;
+
+color: #030305;
+
+}
+.main-footer__container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;   
+    justify-content: space-between;
+}
